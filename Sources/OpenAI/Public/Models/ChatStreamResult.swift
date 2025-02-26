@@ -64,6 +64,7 @@ public struct ChatStreamResult: Codable, Equatable {
                 case content
                 case role
                 case toolCalls = "tool_calls"
+                case reasoning_content
             }
         }
 
