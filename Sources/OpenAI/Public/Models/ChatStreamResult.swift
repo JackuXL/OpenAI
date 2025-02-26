@@ -20,6 +20,7 @@ public struct ChatStreamResult: Codable, Equatable {
             /// The role of the author of this message.
             public let role: Self.Role?
             public let toolCalls: [Self.ChoiceDeltaToolCall]?
+            public let reasoning_content: String?
 
             public struct ChoiceDeltaToolCall: Codable, Equatable {
 
